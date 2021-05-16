@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Ezra SIL SR';
+  src: url('fonts/BSTHebrew.eot') format('embedded-opentype'),
+  url('fonts/BSTHebrew.woff') format('woff'),
+  url('fonts/BSTHebrew.ttf')  format('truetype'),
+  url('fonts/BSTHebrew.svg#EzraSILSR') format('svg');
+}
+
+.ezra {
+  font-family: 'Ezra SIL SR' !important;
+  direction:rtl;
+  text-align: right;
+}
+
+:lang(he) {
+  direction:rtl;
+  font-family:'Ezra SIL SR', 'Taamey Frank CLM', 'Taamey David CLM', 'Keter YG', 'Keter Aram Sova', 'Ezra SIL', 'Cardo', serif;
+}
